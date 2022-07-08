@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "image-geotagger"
+version = "0.1.0"
+description = ""
+authors = ["Daniyal Jahan Warsi <jahandaniyal@gmail.com>"]
+license = "GNU General Purpose License v3.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyexiv2 = "^2.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

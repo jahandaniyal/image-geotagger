@@ -1,0 +1,15 @@
+[[package]]
+name = "pyexiv2"
+version = "2.7.1"
+description = "Read/Write metadata(including EXIF, IPTC, XMP), comment and ICC Profile embedded in digital images."
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "25bfab7bbbe1851443a58a7903edafa9f49422abacb1c2887bf2020cf1edb23e"
+
+[metadata.files]
+pyexiv2 = []
