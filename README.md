@@ -17,7 +17,15 @@ Make sure you have installed [poetry](https://python-poetry.org/docs/) before pr
 
 `poetry shell`
 
+## Installation
+**[This is currently in pre-production stage]**
+
+`pip install https://github.com/jahandaniyal/image-geotagger/releases/download/v0.1.0/geotagger-0.1.0-py3-none-any.whl`
+
 ## Usage
+- Create a folder and name it *samples*
+- add an image file and name it *img.jpg*
+
 ```python
 from geotagger import set_gps_metadata, read_exif_data
 
