@@ -1,9 +1,17 @@
 [tool.poetry]
-name = "image-geotagger"
+name = "geotagger"
 version = "0.1.0"
 description = ""
 authors = ["Daniyal Jahan Warsi <jahandaniyal@gmail.com>"]
 license = "GNU General Purpose License v3.0"
+homepage = "https://github.com/jahandaniyal/image-geotagger"
+repository = "https://github.com/jahandaniyal/image-geotagger"
+include = [
+    "LICENSE",
+]
+packages = [
+    { include = "geotagger" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

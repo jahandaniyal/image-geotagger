@@ -1,5 +1,5 @@
 import pyexiv2
-from utils import Rational
+from .utils import Rational
 
 
 def to_deg(value, loc):
